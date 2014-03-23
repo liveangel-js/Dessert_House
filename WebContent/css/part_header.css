@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+#header{
+	margin:5px 0px;
+	overflow: hidden;
+}
+
+
+.header_left{
+	float:left;
+}
+
+
+.header_right{
+	float:right;
+}
+
+.header_left a{
+	color:red;
+}

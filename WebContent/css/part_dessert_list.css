@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+.dessert_module {
+	border-radius: 15px;
+	border: 1px double green;
+	margin-top: 30px;
+	padding: 10px 5px;
+	margin-bottom: 20px;
+}
+
+.dessert_header {
+	overflow: hidden;
+}
+
+.dessert_query_style {
+	float: left;
+	width: 300px;
+	margin-left: 12px;
+}
+
+.dessert_number {
+	float: right;
+}
+
+.dessert_list {
+	clear: both;
+}
+
+.dessert {
+	margin: 12px 12px;
+	float: left;
+}
+
+.dessert_info {
+	text-align: center;
+}
+
+.dessert_page {
+	clear: both;
+}
+
+.dessert_list .dessert {
+	width: 150px;
+	height: 205px;
+}
+
+.dessert_list img {
+	width: 150px;
+	height: 155px;
+}
+
+.sort_type {
+	float: left;
+	margin-right: 10px;
+}
+
+.sort_type:HOVER {
+	color: orange;
+}
+
+.sort_image_price {
+	height: 20px;
+	width: 10px;
+	float: left;
+	background: url(../img/icon_tao.png) no-repeat -160px -35px;
+}
+
+.sort_image_price_on {
+	height: 20px;
+	width: 10px;
+	float: left;
+	background: url(../img/icon_tao.png) no-repeat -200px -35px;
+}
+
+.sort_image_sale {
+	height: 20px;
+	width: 20px;
+	float: left;
+	background: url(../img/icon_tao.png) no-repeat -170px -35px;
+}

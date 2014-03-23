@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+
+.dessert_detail_module{
+	margin-top: 10px;
+}
+
+.dessert_detail_module h2{
+	color:#D23061;
+	border-bottom: 3px solid #D23061;
+	margin-bottom: 20px;
+}
+
+.detail_left{
+	float:left;
+	width:45%;
+}
+
+.detail_left a{
+	cursor:pointer;
+}
+
+.thumbnail img{
+	width:55px;
+	height:55px;
+	border:2px solid grey;
+}
+.number_decrease{
+	cursor:pointer;
+	width:11px;
+	height:11px;
+	background:url(../img/detail/icon-jian.jpg)  0px 0px no-repeat;
+}
+.number_increase{
+	cursor:pointer;
+	width:11px;
+	height:11px;
+	background:url(../img/detail/icon-jia.gif)  0px 0px no-repeat;
+}
+.thumbnail{
+	margin-top: 0px;
+}
+.detail_right input{
+	text-align: center;
+}
+
+.detail_right div{
+	margin-top: 30px;
+}
+.detail_right .price{
+	font-weight: bold;
+	color:#D23061;
+	font-size: 24px;
+	font-family: "微软雅黑";
+}
+.detail_right{
+	float:right;
+	width:45%;
+}
+.jqzoom .detail_img{
+	width:300px;
+	height:300px;
+}

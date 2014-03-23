@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.announcement {
+	height: 200px;
+	border: 1px solid rgb(230, 185, 185); 
+	background : rgb( 230, 200, 200);
+	border-radius: 5px;
+	padding: 0px 10px 15px 15px;
+	line-height: 25px;
+	font-size: 12px;
+	overflow: hidden;
+	background: rgb(230, 200, 200);
+}

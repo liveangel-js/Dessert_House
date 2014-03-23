@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+a.modify:link {
+    color:#FF0000;
+    font-size:18px;
+    text-decoration:underline;
+}
+a.modify:visited {
+    color:#808080;
+    font-size:18px;
+    text-decoration:none;
+}
+a.modify:hover {
+    color:#000000;
+    font-size:18px;
+    text-decoration:underline;
+}
+a.modify:active {
+    color:#FFFFFF;
+    font-size:18px;
+    text-decoration:none;
+}
+
+.inputInt {
+	
+	font-size:20px;
+	IME-MODE: disabled; 
+	WIDTH: 80px; 
+	HEIGHT: 20px;
+	onkeyup=this.value=this.value.replace(/\D/g,'');
+	onafterpaste="this.value=this.value.replace(/\D/g,'')";
+	maxlength="5" ;
+	size="20";
+	
+}
+.longinputInt {
+	
+	font-size:20px;
+	IME-MODE: disabled; 
+	WIDTH: 160px; 
+	HEIGHT: 20px;
+	onkeyup=this.value=this.value.replace(/\D/g,'');
+	onafterpaste="this.value=this.value.replace(/\D/g,'')";
+	maxlength="5" ;
+	size="20";
+	
+}
+.warning{
+	font-size:18px;
+	
+}
+.buttonStyle{
+	font-size:20px;
+	height:55
+}

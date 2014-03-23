@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+.nav li {
+	border: 1px solid rgb(230, 185, 185);
+	background: rgb(230, 200, 200);
+	line-height: 36px;
+	font-size: 14px;
+	height: 36px;
+	font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI",
+		"Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+}
+
+.nav li.type_on {
+	border: 1px solid rgb(230, 185, 185);
+	background: white;
+	line-height: 36px;
+	font-size: 14px;
+	height: 36px;
+	font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI",
+		"Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+}
+
+.nav li:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+.nav li.type_on:hover {
+	background-color: white;
+	cursor: pointer;
+}
+
+.nav ul {
+	list-style: none;
+	margin-top: 0px;
+	border: 0;
+	padding: 0;
+	border-radius: 5px;
+	border: 1px solid #C7CACC
+}
+
+.icon {
+	border: 1px;
+	float: left;
+	width: 36px;
+	height: 36px;
+	background: url(../img/nav/sidemenu.png) -92px 10px no-repeat;
+}
+
+.nav .nav_search {
+	background: rgb(240, 230, 230);
+	line-height: 36px;
+	padding: 0px;
+	font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI",
+		"Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+}
+
+.nav_search_button {
+	background: url(../img/nav/sidemenu.png) no-repeat -1147px 8px;
+	width: 36px;
+	height: 36px;
+	border: 0;
+	margin: 0px;
+	pedding: 0px;
+	float: left;
+}
+
+.nav li #nav_search_input {
+	border: 1px;
+	background: transparent;
+	outline: none;
+	height: 16px;
+	line-height: 16px;
+	padding: 11px 0;
+	left: 0px;
+	font-size: 14px;
+	font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI",
+		"Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+}
